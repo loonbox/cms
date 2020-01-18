@@ -1,0 +1,42 @@
+cms {
+
+user authentication set session
+simple message board php / mysql / bootstrap/ html
+server side set up ubuntu server digital ocean
+purchase domain name
+set up dns
+set up cdn for SSL cert https://
+
+index.php
+header.php
+footer.php
+db_connect.php
+login_php.php
+logout.php
+sign_up.php
+sign_up_process.php
+posts.php
+make_post_form.php
+process_post.php
+modal.html
+
+
+SMS 
+create sms
+ability to respond to sms
+
+
+
+refactor refactor
+Build databases out
+put all file on server
+run testing on 3 mobile browsers 3 desktop browsers 2 tablets .. 
+fix test repeat
+
+Put all code on GitHub
+
+Deliver Monday Afternoon
+
+Do a little dance
+
+}

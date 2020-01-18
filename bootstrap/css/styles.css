@@ -1,0 +1,59 @@
+
+table {
+  text-align: center;
+}
+
+.postButton {
+  margin-top: 30;
+  text-align: center;
+}
+
+.mySimpleCms {
+  margin-top:120px;
+  margin-bottom:20px;
+  text-align: center;
+}
+
+.lead {
+  margin-top:50px;
+  margin-bottom: 20px;
+  text-align:center;
+}
+
+body {
+font-family: 'Montserrat', sans-serif;
+}
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.trigger-btn {
+display: inline-block;
+margin: 100px auto;
+}
+.makeAPost {
+  padding-top:45px;
+}
+
+footer {
+  font-size:12px;
+  margin-top:20px;
+  text-align:center;
+
+}
