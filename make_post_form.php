@@ -4,7 +4,7 @@ if(!isset($_SESSION['username'])){
    header("Location:index.php");
 }
 include "header.php";
-include "footer.php";
+
  ?>
 
 <div class="container">

@@ -1,8 +1,13 @@
 <?php
+require_once "vendor/autoload.php";
+use Twilio\TwiML\MessagingResponse;
 
-require_once 'vendor/autoload.php'; // Loads the library
-use Twilio\Twiml\MessagingResponse;
+// Set the content-type to XML to send back TwiML from the PHP Helper Library
+header("content-type: text/xml");
 
 $response = new MessagingResponse();
-$response->message("This is the Symposia Bot. I cannot respond to you at this time. As soon as my developer gets a little more time he might add some functionality to me. Have a great day!");
-print $response;
+$response->message(
+    "Hello I am the Symposia Bot. I can not do much more than say hello at this time. When my developer has more time perhaps he will add a some more functionality. Have a great day!"
+);
+
+echo $response;

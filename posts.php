@@ -6,10 +6,6 @@ if(!isset($_SESSION['username'])){
 
 
 include "db_connect.php";
-
-
-
-
 include "header.php";
 ?>
 
@@ -49,9 +45,3 @@ include "header.php";
   </div>
 
 </main><!-- /.container -->
-<?php
-include "footer.php";
-
-
-
-?>

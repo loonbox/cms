@@ -2,10 +2,6 @@ cms {
 
 user authentication set session
 simple message board php / mysql / bootstrap/ html
-server side set up ubuntu server digital ocean
-purchase domain name
-set up dns
-set up cdn for SSL cert https://
 
 index.php
 header.php
