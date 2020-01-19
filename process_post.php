@@ -3,6 +3,7 @@ session_start();    // if session exists you can view this page.. If not bye bye
 if(!isset($_SESSION['username'])){
    header("Location:index.php");
 }
+
 $user = $_SESSION["username"];
 $post = $_POST["post"];
 
@@ -10,16 +11,10 @@ $post = $_POST["post"];
 $user = htmlspecialchars($user);
 $post = htmlspecialchars($post);
 
-
-
-
-
 echo $user;
 echo $post;
 
-
-
-
+// take this out later and include db_connnect.php
 $db = mysqli_connect("localhost","root","phpwork","cms");
 
 if($db){

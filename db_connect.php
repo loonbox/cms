@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "xxxx";
-$password = "xxxx";
+$username = "root";
+$password = "phpwork";
 $dbname = "cms";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -12,7 +12,7 @@ if (!$conn) {
 }
 
 else {
-  
   $connected_yes = "connnected to db";
   echo "<script type='text/javascript'>console.log('$connected_yes');</script>";
 }
+?>

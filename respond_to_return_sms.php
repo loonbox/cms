@@ -7,7 +7,7 @@ header("content-type: text/xml");
 
 $response = new MessagingResponse();
 $response->message(
-    "Hello I am the Symposia Bot. I can not do much more than say hello at this time. When my developer has more time perhaps he will add a some more functionality. Have a great day!"
+    "Hello I am the Symposia Bot. I hope you are having a great day!"
 );
 
 echo $response;
