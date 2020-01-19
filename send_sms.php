@@ -19,8 +19,8 @@ if (isset($_POST['phoneNumberTo'])){
 require __DIR__ . '/vendor/autoload.php';
 use Twilio\Rest\Client;
 //my account information
-$sid = 'AC280689689ede3dd48a2d451ea3f60092';
-$token = 'b175402da861561c1650f0cedc6a4f83';
+$sid = 'xxxxx';
+$token = 'xxxxxx';
 $client = new Client($sid, $token);
 
 // set up the message and fire the message
