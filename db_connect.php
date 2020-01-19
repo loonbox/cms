@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "phpwork";
+$username = "xxx";
+$password = "xxx";
 $dbname = "cms";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
