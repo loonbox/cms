@@ -9,7 +9,7 @@ $email_address = $_POST["email_address"];
 // $pass = password_hash($password, PASSWORD_BCRYPT); fix this after getting login sorted out without  password_verify
 
 $conn = new mysqli($servername, $username, $password, $dbname);
-$db = mysqli_connect("localhost","root","phpwork","cms");
+$db = mysqli_connect("localhost","xxxx","xxxxx","xxxx");
 
 if($db){
   $stmt = $db->prepare("INSERT INTO user_information (username, password, firstname,lastname,email_address) VALUES (?, ?, ?, ?, ?)");
