@@ -15,7 +15,7 @@ echo $user;
 echo $post;
 
 // take this out later and include db_connnect.php
-$db = mysqli_connect("localhost","root","phpwork","cms");
+$db = mysqli_connect("localhost","xxx","xxx","xxx");
 
 if($db){
   $stmt = $db->prepare("INSERT INTO user_posts (username, post) VALUES (?, ?)");
